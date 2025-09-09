@@ -80,7 +80,7 @@ export default function Home() {
               </span>
             </div>
             <h1 className="font-display text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 sm:mb-8 leading-tight tracking-tight animate-fadeInUp px-2">
-              UAE's Smart
+              UAE&apos;s Smart
               <br />
               <span className="text-accent drop-shadow-lg">Finance</span> Revolution
             </h1>
@@ -121,7 +121,7 @@ export default function Home() {
               </h2>
               <p className="font-sans text-base sm:text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed px-4">
                 Kasefra is building the future of personal finance management specifically for the UAE market. 
-                We're creating an intelligent platform that connects all your banking needs, powered by AI 
+                We&apos;re creating an intelligent platform that connects all your banking needs, powered by AI 
                 and designed with the modern UAE resident in mind.
               </p>
             </div>
@@ -160,10 +160,10 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 sm:mb-16 section-animate">
             <h2 className="font-display text-2xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6 sm:mb-8 px-2">
-              What's Coming Next
+              What&apos;s Coming Next
             </h2>
             <p className="font-sans text-base sm:text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed px-4">
-              We're building something extraordinary. Here's a preview of the revolutionary 
+              We&apos;re building something extraordinary. Here&apos;s a preview of the revolutionary 
               features that will transform how you manage money in the UAE.
             </p>
           </div>
@@ -302,7 +302,7 @@ export default function Home() {
 
               {submitStatus === 'success' && (
                 <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg text-green-800">
-                  Thank you! Your message has been sent successfully. We'll get back to you soon.
+                  Thank you! Your message has been sent successfully. We&apos;ll get back to you soon.
                 </div>
               )}
 
