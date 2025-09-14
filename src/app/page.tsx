@@ -245,9 +245,7 @@ export default function Home() {
               Wealth grows where wisdom reigns.
             </p>
             <div className="flex justify-center gap-12 mb-12">
-              <a href="#about" className="font-display text-gray-300 hover:text-white transition-all duration-300 text-lg hover:scale-105">About</a>
-              <a href="#features" className="font-display text-gray-300 hover:text-white transition-all duration-300 text-lg hover:scale-105">Features</a>
-              <a href="#contact" className="font-display text-gray-300 hover:text-white transition-all duration-300 text-lg hover:scale-105">Contact</a>
+              
             </div>
             <div className="border-t border-gray-700 pt-10">
               <p className="text-gray-400 text-sm sm:text-lg">
