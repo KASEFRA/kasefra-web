@@ -229,8 +229,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Floating Social Media Icons - Desktop */}
-      <div className="fixed right-4 top-1/2 transform -translate-y-1/2 z-50 hidden lg:flex flex-col gap-4">
+      {/* Desktop Social Media Icons - Right Center */}
+      <div className="fixed right-4 top-1/2 transform -translate-y-1/2 z-50 hidden md:flex flex-col gap-4">
         <a
           href="https://facebook.com/kasefra"
           target="_blank"
@@ -238,7 +238,7 @@ export default function Home() {
           className="social-icon group"
           aria-label="Follow us on Facebook"
         >
-          <FaFacebook className="w-6 h-6 text-white group-hover:text-blue-600 transition-colors duration-300" />
+          <FaFacebook className="w-5 lg:w-6 h-5 lg:h-6 text-white group-hover:text-blue-600 transition-colors duration-300" />
         </a>
         <a
           href="https://linkedin.com/company/kasefra"
@@ -247,7 +247,7 @@ export default function Home() {
           className="social-icon group"
           aria-label="Follow us on LinkedIn"
         >
-          <FaLinkedin className="w-6 h-6 text-white group-hover:text-blue-500 transition-colors duration-300" />
+          <FaLinkedin className="w-5 lg:w-6 h-5 lg:h-6 text-white group-hover:text-blue-500 transition-colors duration-300" />
         </a>
         <a
           href="https://youtube.com/@kasefra"
@@ -256,7 +256,7 @@ export default function Home() {
           className="social-icon group"
           aria-label="Subscribe to our YouTube channel"
         >
-          <FaYoutube className="w-6 h-6 text-white group-hover:text-red-500 transition-colors duration-300" />
+          <FaYoutube className="w-5 lg:w-6 h-5 lg:h-6 text-white group-hover:text-red-500 transition-colors duration-300" />
         </a>
         <a
           href="https://x.com/kasefra"
@@ -265,48 +265,50 @@ export default function Home() {
           className="social-icon group"
           aria-label="Follow us on X (Twitter)"
         >
-          <FaXTwitter className="w-6 h-6 text-white group-hover:text-gray-800 transition-colors duration-300" />
+          <FaXTwitter className="w-5 lg:w-6 h-5 lg:h-6 text-white group-hover:text-gray-800 transition-colors duration-300" />
         </a>
       </div>
 
-      {/* Mobile Social Media Bottom Bar */}
-      <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50 lg:hidden flex gap-3 social-bar-mobile">
-        <a
-          href="https://facebook.com/kasefra"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="social-icon-mobile group"
-          aria-label="Follow us on Facebook"
-        >
-          <FaFacebook className="w-5 h-5 text-white group-hover:text-blue-600 transition-colors duration-300" />
-        </a>
-        <a
-          href="https://linkedin.com/company/kasefra"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="social-icon-mobile group"
-          aria-label="Follow us on LinkedIn"
-        >
-          <FaLinkedin className="w-5 h-5 text-white group-hover:text-blue-500 transition-colors duration-300" />
-        </a>
-        <a
-          href="https://youtube.com/@kasefra"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="social-icon-mobile group"
-          aria-label="Subscribe to our YouTube channel"
-        >
-          <FaYoutube className="w-5 h-5 text-white group-hover:text-red-500 transition-colors duration-300" />
-        </a>
-        <a
-          href="https://x.com/kasefra"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="social-icon-mobile group"
-          aria-label="Follow us on X (Twitter)"
-        >
-          <FaXTwitter className="w-5 h-5 text-white group-hover:text-gray-800 transition-colors duration-300" />
-        </a>
+      {/* Mobile Social Media Icons - Bottom Center */}
+      <div className="fixed bottom-4 inset-x-0 z-50 flex md:hidden justify-center">
+        <div className="flex gap-2 social-bar-mobile">
+          <a
+            href="https://facebook.com/kasefra"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-icon-mobile group"
+            aria-label="Follow us on Facebook"
+          >
+            <FaFacebook className="w-3.5 h-3.5 text-white group-hover:text-blue-600 transition-colors duration-300" />
+          </a>
+          <a
+            href="https://linkedin.com/company/kasefra"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-icon-mobile group"
+            aria-label="Follow us on LinkedIn"
+          >
+            <FaLinkedin className="w-3.5 h-3.5 text-white group-hover:text-blue-500 transition-colors duration-300" />
+          </a>
+          <a
+            href="https://youtube.com/@kasefra"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-icon-mobile group"
+            aria-label="Subscribe to our YouTube channel"
+          >
+            <FaYoutube className="w-3.5 h-3.5 text-white group-hover:text-red-500 transition-colors duration-300" />
+          </a>
+          <a
+            href="https://x.com/kasefra"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-icon-mobile group"
+            aria-label="Follow us on X (Twitter)"
+          >
+            <FaXTwitter className="w-3.5 h-3.5 text-white group-hover:text-gray-800 transition-colors duration-300" />
+          </a>
+        </div>
       </div>
 
       {/* Footer */}
@@ -325,11 +327,6 @@ export default function Home() {
             <p className="font-sans text-gray-200 mb-10 text-xl leading-relaxed max-w-2xl mx-auto">
               Wealth grows where wisdom reigns.
             </p>
-            <div className="flex justify-center gap-12 mb-12">
-              <a href="#about" className="font-display text-gray-300 hover:text-white transition-all duration-300 text-lg hover:scale-105">About</a>
-              <a href="#features" className="font-display text-gray-300 hover:text-white transition-all duration-300 text-lg hover:scale-105">Features</a>
-              <a href="#contact" className="font-display text-gray-300 hover:text-white transition-all duration-300 text-lg hover:scale-105">Contact</a>
-            </div>
             <div className="border-t border-gray-700 pt-10">
               <p className="text-gray-400 text-sm sm:text-lg">
                 © 2025 Kasefra. All rights reserved. | Contact: <span className="text-secondary font-semibold">ask@kasefra.io</span>
