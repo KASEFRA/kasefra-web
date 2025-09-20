@@ -248,3 +248,84 @@ h6 {
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(135deg, #1a1642, #272361);
 }
+
+/* Social Media Icons */
+.social-icon {
+  @apply flex items-center justify-center w-12 h-12 rounded-full backdrop-blur-sm transition-all duration-300 cursor-pointer;
+  background: rgba(39, 35, 97, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.social-icon:hover {
+  @apply transform scale-110 -translate-y-1;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(39, 35, 97, 0.2);
+  box-shadow: 0 10px 25px rgba(39, 35, 97, 0.3);
+}
+
+@keyframes socialFadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.social-icon {
+  animation: socialFadeIn 0.6s ease-out forwards;
+}
+
+.social-icon:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.social-icon:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.social-icon:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.social-icon:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+/* Mobile Social Media Bottom Bar */
+.social-bar-mobile {
+  @apply bg-primary/90 backdrop-blur-sm rounded-full px-4 py-3 border border-white/10;
+  box-shadow: 0 10px 25px rgba(39, 35, 97, 0.3);
+}
+
+.social-icon-mobile {
+  @apply flex items-center justify-center w-11 h-11 rounded-full transition-all duration-300 cursor-pointer;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  min-width: 44px; /* Touch-friendly minimum size */
+  min-height: 44px;
+}
+
+.social-icon-mobile:hover {
+  @apply transform scale-110;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(39, 35, 97, 0.2);
+  box-shadow: 0 5px 15px rgba(39, 35, 97, 0.2);
+}
+
+@keyframes mobileSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px) translateX(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) translateX(-50%);
+  }
+}
+
+.social-bar-mobile {
+  animation: mobileSlideUp 0.6s ease-out forwards;
+}

@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import emailjs from '@emailjs/browser'
 import Image from 'next/image'
+import { FaFacebook, FaLinkedin, FaYoutube, FaXTwitter } from 'react-icons/fa6'
 
 export default function Home() {
   const [formData, setFormData] = useState({
@@ -228,6 +229,86 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Floating Social Media Icons - Desktop */}
+      <div className="fixed right-4 top-1/2 transform -translate-y-1/2 z-50 hidden lg:flex flex-col gap-4">
+        <a
+          href="https://facebook.com/kasefra"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-icon group"
+          aria-label="Follow us on Facebook"
+        >
+          <FaFacebook className="w-6 h-6 text-white group-hover:text-blue-600 transition-colors duration-300" />
+        </a>
+        <a
+          href="https://linkedin.com/company/kasefra"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-icon group"
+          aria-label="Follow us on LinkedIn"
+        >
+          <FaLinkedin className="w-6 h-6 text-white group-hover:text-blue-500 transition-colors duration-300" />
+        </a>
+        <a
+          href="https://youtube.com/@kasefra"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-icon group"
+          aria-label="Subscribe to our YouTube channel"
+        >
+          <FaYoutube className="w-6 h-6 text-white group-hover:text-red-500 transition-colors duration-300" />
+        </a>
+        <a
+          href="https://x.com/kasefra"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-icon group"
+          aria-label="Follow us on X (Twitter)"
+        >
+          <FaXTwitter className="w-6 h-6 text-white group-hover:text-gray-800 transition-colors duration-300" />
+        </a>
+      </div>
+
+      {/* Mobile Social Media Bottom Bar */}
+      <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50 lg:hidden flex gap-3 social-bar-mobile">
+        <a
+          href="https://facebook.com/kasefra"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-icon-mobile group"
+          aria-label="Follow us on Facebook"
+        >
+          <FaFacebook className="w-5 h-5 text-white group-hover:text-blue-600 transition-colors duration-300" />
+        </a>
+        <a
+          href="https://linkedin.com/company/kasefra"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-icon-mobile group"
+          aria-label="Follow us on LinkedIn"
+        >
+          <FaLinkedin className="w-5 h-5 text-white group-hover:text-blue-500 transition-colors duration-300" />
+        </a>
+        <a
+          href="https://youtube.com/@kasefra"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-icon-mobile group"
+          aria-label="Subscribe to our YouTube channel"
+        >
+          <FaYoutube className="w-5 h-5 text-white group-hover:text-red-500 transition-colors duration-300" />
+        </a>
+        <a
+          href="https://x.com/kasefra"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-icon-mobile group"
+          aria-label="Follow us on X (Twitter)"
+        >
+          <FaXTwitter className="w-5 h-5 text-white group-hover:text-gray-800 transition-colors duration-300" />
+        </a>
+      </div>
+
       {/* Footer */}
       <footer className="bg-gradient-to-br from-primary-dark to-primary text-white py-20">
         <div className="container mx-auto px-6">
@@ -236,9 +317,9 @@ export default function Home() {
               <Image
                 src="/kasefra_logo.png"
                 alt="Kasefra Logo"
-                width={240}
-                height={120}
-                className="w-32 sm:w-32 h-auto drop-shadow-lg"
+                width={160}
+                height={80}
+                className="w-24 sm:w-24 h-auto drop-shadow-lg"
               />
             </div>
             <p className="font-sans text-gray-200 mb-10 text-xl leading-relaxed max-w-2xl mx-auto">
