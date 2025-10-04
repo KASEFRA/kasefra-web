@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import emailjs from '@emailjs/browser'
 import Image from 'next/image'
-import { FaFacebook, FaLinkedin, FaYoutube, FaXTwitter } from 'react-icons/fa6'
+import { FaFacebook, FaLinkedin, FaYoutube, FaXTwitter, FaInstagram, FaTiktok } from 'react-icons/fa6'
 
 export default function Home() {
   const [formData, setFormData] = useState({
@@ -232,7 +232,7 @@ export default function Home() {
       {/* Desktop Social Media Icons - Right Center */}
       <div className="fixed right-4 top-1/2 transform -translate-y-1/2 z-50 hidden md:flex flex-col gap-4">
         <a
-          href="https://facebook.com/kasefra"
+          href="https://www.facebook.com/share/19tzMT6q47/?mibextid=wwXIfr"
           target="_blank"
           rel="noopener noreferrer"
           className="social-icon group"
@@ -241,7 +241,7 @@ export default function Home() {
           <FaFacebook className="w-5 lg:w-6 h-5 lg:h-6 text-white group-hover:text-blue-600 transition-colors duration-300" />
         </a>
         <a
-          href="https://linkedin.com/company/kasefra"
+          href="https://www.linkedin.com/company/kasefraio/"
           target="_blank"
           rel="noopener noreferrer"
           className="social-icon group"
@@ -250,22 +250,22 @@ export default function Home() {
           <FaLinkedin className="w-5 lg:w-6 h-5 lg:h-6 text-white group-hover:text-blue-500 transition-colors duration-300" />
         </a>
         <a
-          href="https://youtube.com/@kasefra"
+          href="https://www.instagram.com/kasefra.io?igsh=a3JhZThpNWZicjJj&utm_source=qr"
           target="_blank"
           rel="noopener noreferrer"
           className="social-icon group"
-          aria-label="Subscribe to our YouTube channel"
+          aria-label="Follow our Instagram"
         >
-          <FaYoutube className="w-5 lg:w-6 h-5 lg:h-6 text-white group-hover:text-red-500 transition-colors duration-300" />
+          <FaInstagram className="w-5 lg:w-6 h-5 lg:h-6 text-white group-hover:text-red-500 transition-colors duration-300" />
         </a>
         <a
-          href="https://x.com/kasefra"
+          href="https://www.tiktok.com/@kasefra.io?_t=ZS-909oihzuFTM&_r=1"
           target="_blank"
           rel="noopener noreferrer"
           className="social-icon group"
-          aria-label="Follow us on X (Twitter)"
+          aria-label="Follow us on TikTok"
         >
-          <FaXTwitter className="w-5 lg:w-6 h-5 lg:h-6 text-white group-hover:text-gray-800 transition-colors duration-300" />
+          <FaTiktok className="w-5 lg:w-6 h-5 lg:h-6 text-white group-hover:text-gray-800 transition-colors duration-300" />
         </a>
       </div>
 
@@ -273,7 +273,7 @@ export default function Home() {
       <div className="fixed bottom-4 inset-x-0 z-50 flex md:hidden justify-center">
         <div className="flex gap-2 social-bar-mobile">
           <a
-            href="https://facebook.com/kasefra"
+            href="https://www.facebook.com/share/19tzMT6q47/?mibextid=wwXIfr"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon-mobile group"
@@ -282,7 +282,7 @@ export default function Home() {
             <FaFacebook className="w-3.5 h-3.5 text-white group-hover:text-blue-600 transition-colors duration-300" />
           </a>
           <a
-            href="https://linkedin.com/company/kasefra"
+            href="https://www.linkedin.com/company/kasefraio/"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon-mobile group"
@@ -291,22 +291,22 @@ export default function Home() {
             <FaLinkedin className="w-3.5 h-3.5 text-white group-hover:text-blue-500 transition-colors duration-300" />
           </a>
           <a
-            href="https://youtube.com/@kasefra"
+            href="https://www.instagram.com/kasefra.io?igsh=a3JhZThpNWZicjJj&utm_source=qr"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon-mobile group"
-            aria-label="Subscribe to our YouTube channel"
+            aria-label="Follow our Instagram"
           >
-            <FaYoutube className="w-3.5 h-3.5 text-white group-hover:text-red-500 transition-colors duration-300" />
+            <FaInstagram className="w-3.5 h-3.5 text-white group-hover:text-red-500 transition-colors duration-300" />
           </a>
           <a
-            href="https://x.com/kasefra"
+            href="https://www.tiktok.com/@kasefra.io?_t=ZS-909oihzuFTM&_r=1"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon-mobile group"
-            aria-label="Follow us on X (Twitter)"
+            aria-label="Follow us on TikTok"
           >
-            <FaXTwitter className="w-3.5 h-3.5 text-white group-hover:text-gray-800 transition-colors duration-300" />
+            <FaTiktok className="w-3.5 h-3.5 text-white group-hover:text-gray-800 transition-colors duration-300" />
           </a>
         </div>
       </div>
