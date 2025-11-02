@@ -85,8 +85,8 @@ export default function Home() {
                 🚀 Something Big is Coming Soon
               </span>
             </div>
-            <h1 className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 sm:mb-8 leading-tight tracking-tight animate-fadeInUp px-2">
-              UAE&apos;s Smart
+            <h1 className="font-display text-4xl sm:text-6xl md:text-9xl lg:text-10xl font-bold mb-6 sm:mb-8 leading-tight tracking-tight animate-fadeInUp px-2">
+              Smart
               <br />
               <span className="text-accent drop-shadow-lg">Finance</span> Revolution
             </h1>
@@ -122,7 +122,7 @@ export default function Home() {
                 Join the Revolution
               </h2>
               <p className="font-sans text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-                Be among the first to experience the future of finance in the UAE.
+                Be among the first to experience the future of finance.
                 Get exclusive early access and help shape the product.
               </p>
             </div>

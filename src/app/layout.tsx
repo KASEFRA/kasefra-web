@@ -18,8 +18,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Kasefra - UAE's Smart Personal Finance Management",
-  description: "Transform your financial life with Kasefra - UAE's leading personal finance platform with seamless banking integration, smart categorization, and powerful insights.",
+  title: "Kasefra - Smart Personal Finance Management",
+  description: "Transform your financial life with Kasefra - Leading personal finance platform with seamless banking integration, smart categorization, and powerful insights.",
 };
 
 export default function RootLayout({
