@@ -85,10 +85,10 @@ export default function Home() {
                 🚀 Something Big is Coming Soon
               </span>
             </div>
-            <h1 className="font-display text-4xl sm:text-6xl md:text-9xl lg:text-10xl font-bold mb-6 sm:mb-8 leading-tight tracking-tight animate-fadeInUp px-2">
-              Smart
+            <h1 className="font-display text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-bold mb-4 sm:mb-6 leading-tight tracking-tight animate-fadeInUp px-2">
+              The Smart
               <br />
-              <span className="text-accent drop-shadow-lg">Finance</span> Revolution
+             <span className="text-accent drop-shadow-lg">Finance</span> Revolution
             </h1>
             <p className="font-sans text-lg sm:text-xl md:text-2xl mb-8 sm:mb-12 text-white/95 max-w-3xl mx-auto leading-relaxed animate-fadeInUp px-4">
 
