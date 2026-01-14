@@ -79,7 +79,7 @@ export default function Home() {
       <section className="relative overflow-hidden min-h-screen flex items-center py-20 px-4 sm:px-6">
         <div className="hero-gradient absolute inset-0"></div>
         <div className="relative z-10 container mx-auto">
-          <div className="text-center text-white max-w-5xl mx-auto">
+          <div className="text-center text-white max-w-6xl mx-auto">
             <div className="mb-6 sm:mb-8 animate-fadeIn">
               <span className="inline-block px-4 sm:px-6 py-2 sm:py-3 bg-white/20 backdrop-blur-sm rounded-full text-xs sm:text-sm font-semibold mb-4 sm:mb-6 border border-white/20 shadow-lg">
                 🚀 Something Big is Coming Soon
@@ -94,12 +94,24 @@ export default function Home() {
 
               Get ready for redefining asset management with the latest AI technology
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center animate-fadeInUp px-4 max-w-xl mx-auto">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center animate-fadeInUp px-4 max-w-xxl mx-auto">
               <a
                 href="#contact"
                 className="bg-white text-primary px-8 sm:px-12 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:bg-white/95 hover:shadow-2xl transition-all transform hover:scale-105 hover:-translate-y-1 shadow-xl text-center"
               >
                 Join the Waitlist
+              </a>
+              <a
+                href="https://loky.kasefra.io"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative overflow-hidden gradient-bg animate-gradientShift text-white px-8 sm:px-12 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg text-center ring-2 ring-accent/60 shadow-[0_0_35px_rgba(131,85,162,0.45)] transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 hover:shadow-[0_0_45px_rgba(131,85,162,0.7)] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-accent/70 before:content-[''] before:absolute before:inset-0 before:-translate-x-full before:bg-gradient-to-r before:from-transparent before:via-white/35 before:to-transparent before:transition-transform before:duration-700 hover:before:translate-x-full"
+              >
+                Explore{" "}
+                <span className="inline-flex items-center text-purple-500 font-extrabold">
+                  Loky
+                </span>{" "}
+                - AI for Personal Finance
               </a>
 
             </div>
